@@ -244,12 +244,12 @@ function Footer() {
       <div className="footer-bottom">
         <div className="container">
           <div className="section-wrapper">
-            <p>
+            {/* <p>
               &copy; 2023 <Link to={"/"}>Shop Cart</Link> Designed by{" "}
               <a href="/github" target="_blank">
                 Yugank Anchal
               </a>
-            </p>
+            </p> */}
             <div className="footer-bottom-list">
               <div className="footer-bottom-list">
                 {footerbottomList.map((val, i) => (
